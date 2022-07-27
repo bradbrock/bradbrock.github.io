@@ -1,4 +1,4 @@
-{
+var content = {
     "name" : "Brad Brock",
     "location" : "Dallas, TX",
     "email": "brad.r.brock@gmail.com",
@@ -159,3 +159,6 @@
         }
     }
 }
+
+console.log(content);
+// export {content};
