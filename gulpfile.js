@@ -1,16 +1,19 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
+const sass = require('gulp-sass');
+const { watch, src, dest } = require('gulp');
 
-gulp.task('default', function() {
-  // place code for your default task here
-});
+function compileSass() {
+  console.log("sass");
+  return (
+    src('scss/style.scss')
+    .pipe(sass())
+    .on("error", sass.logError)
+    .pipe(dest('css'))
+  )
+}
 
-gulp.task('sass', function() {
-    return gulp.src('scss/style.scss')
-        .pipe(sass())
-        .pipe(gulp.dest('css'));
-});
-
-gulp.task('watch', function(){
-    gulp.watch('scss/*.scss', ['sass']); 
-});
+exports.watch = function() {
+  watch('scss/*.scss', { ignoreInitial: false }, function(cb) {
+    compileSass();
+    cb();
+  });
+};
