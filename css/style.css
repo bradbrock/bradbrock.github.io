@@ -59,9 +59,7 @@ body {
 main {
   width: 100%;
   padding-top: 50px;
-  padding-bottom: 0;
-  padding-left: 2rem;
-  padding-right: 2rem; }
+  padding-bottom: 0; }
   @media (max-width: 1000px) {
     main {
       padding-left: .25rem;
@@ -174,7 +172,7 @@ header {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 2rem; }
+    padding: 1rem; }
     @media (max-width: 800px) {
       header .wrap h2 {
         margin-bottom: 0; } }
