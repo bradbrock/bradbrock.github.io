@@ -66,8 +66,13 @@
         }
     }
 }
+#fossilEcommProject {
+    &:before {
+        background-image: url('../img/fossil03.png');
+        background-position: top center;
+    }
+}
 #einsteinsProject{
-
     &:before{
         background-image: url('../img/einstein01.jpg');
         background-position: top center;

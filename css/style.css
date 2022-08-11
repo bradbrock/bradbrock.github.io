@@ -502,6 +502,10 @@ footer {
       background-size: 105%;
       box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.2); }
 
+#fossilEcommProject:before {
+  background-image: url("../img/fossil03.png");
+  background-position: top center; }
+
 #einsteinsProject:before {
   background-image: url("../img/einstein01.jpg");
   background-position: top center; }
