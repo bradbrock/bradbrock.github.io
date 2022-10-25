@@ -1,34 +1,20 @@
 header {
+
+    @include flex(row, wrap, center, space-between);
+
     color: #000;
+    padding: 1rem;
     border-bottom: 1px solid #e8e8e9;
     background: #fff;
-    .wrap{
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-        padding: 1rem;
-    
-        @media (max-width: 800px) {
-            h2{
-                margin-bottom: 0;
-            }
-        }
-        @media (max-width: 600px) {
-            flex-direction: column;
-            padding-top: .75rem;
-            padding-bottom: .75rem;
-            align-items: center;
+
+    @media (max-width: 800px) {
+        h2{
+            margin-bottom: 0;
         }
     }
 }
 
 .title {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
 
     h1{
         border-bottom-color: black;

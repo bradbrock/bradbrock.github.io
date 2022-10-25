@@ -1,3 +1,10 @@
 $_20px: 1.25rem;
 $blue: #357da3;
 $gray: #7a7a7a;
+
+@mixin flex($dir, $wrap, $align, $justify) {
+    display: flex;
+    flex-flow: $dir $wrap;
+    align-items: $align;
+    justify-content: $justify;
+}

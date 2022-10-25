@@ -4,10 +4,6 @@
     border: 1px solid #e8e8e9;
     background: #fff;
 
-    &:not(:last-child){
-        margin-bottom: 40px;
-    }
-
     @media (max-width: 550px){
         padding-left: .85rem;
         padding-right: .85rem;

@@ -24,6 +24,10 @@ body{
     margin-right: auto;
 }
 main{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
     width: 100%;
     padding-top: 50px;
     padding-bottom: 0;
@@ -106,5 +110,40 @@ ul.column-list{
     li{
         margin-right: 1.75rem;
         margin-bottom: .5rem;
+    }
+}
+
+ul.article-list {
+    list-style: none;
+    padding-left: 0;
+
+    > li {
+        margin-bottom: 2rem;
+    }
+
+    ul {
+        list-style-type: disc;
+    }
+}
+
+.experience {
+    grid-row-end: span 2;
+}
+
+.logo {
+    width: 100%;
+}
+
+.client-list {
+    list-style: none;
+    padding: 0;
+
+    @include flex(row, wrap, center, center);
+
+    li {
+        width: 100%;
+        max-width: 33.333%;
+        padding: .5rem 1rem .5rem 0;
+        // margin-bottom: 1rem;
     }
 }
