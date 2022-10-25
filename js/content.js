@@ -36,6 +36,18 @@ var content = {
                     "Created email templates used by multiple Fossil Group brands in AMPscript, as well as their related data extentions, allowing for personalization in transactional and marketing emails."
                 ]
             },
+            "fossil" : {
+                "displayName" : "Fossil Group",
+                "jobTitle" : "UI Developer 2",
+                "startDate" : "June 2018",
+                "endDate" : "October 2021",
+                "highlights" : [
+                    "Collaborated with UX and UI designers to implement a design refresh of skagen.com.",
+                    "Worked with in-house AllY specialists to ensure accessibility best practices on fossil.com, as well as other Fossil-owned brand websites.",
+                    "Implemented GDRP compliance on European e-commerce sites.",
+                    "Created email templates used by multiple Fossil Group brands in AMPscript, as well as their related data extentions, allowing for personalization in transactional and marketing emails."
+                ]
+            },
             "lifeblue": {
                 "displayName" : "Lifeblue",
                 "jobTitle" : "Front End Developer",
