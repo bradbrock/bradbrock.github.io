@@ -280,7 +280,9 @@ footer {
   justify-content: space-between;
   align-items: flex-start;
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 50px;
+  padding-left: 1rem;
+  padding-right: 2rem; }
   footer .contact {
     text-align: right; }
     @media (max-width: 920px) {
