@@ -108,3 +108,20 @@ ul.column-list{
         margin-bottom: .5rem;
     }
 }
+
+// @media (min-width: 800px) {
+    ul.tag-list {
+
+        padding: 0;
+        list-style: none;
+    
+        li {
+            display: inline-block;
+            width: auto !important;
+            background: #c8d0ff;
+            padding: 0 .5rem;
+            border-radius: 4px;
+    
+        }
+    }
+// }

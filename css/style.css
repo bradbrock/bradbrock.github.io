@@ -123,6 +123,16 @@ ul.column-list {
     margin-right: 1.75rem;
     margin-bottom: .5rem; }
 
+ul.tag-list {
+  padding: 0;
+  list-style: none; }
+  ul.tag-list li {
+    display: inline-block;
+    width: auto !important;
+    background: #c8d0ff;
+    padding: 0 .5rem;
+    border-radius: 4px; }
+
 h1 {
   margin-bottom: 0;
   padding-bottom: 0;
@@ -146,7 +156,7 @@ h3 {
   text-align: center; }
 
 h4 {
-  margin-bottom: .25rem;
+  margin-bottom: .5rem;
   font-weight: 600; }
 
 p {
@@ -353,17 +363,18 @@ footer {
       padding-left: .5rem;
       padding-right: .5rem; } }
 
-@media (min-height: 600px) {
-  .col--sidebar {
-    position: sticky;
-    top: 50px; } }
-
-@media (max-width: 800px) {
-  .col--sidebar {
-    position: static;
-    width: 100%;
-    max-width: none;
-    margin-top: 2rem; } }
+.col--sidebar {
+  width: 20%; }
+  @media (min-height: 600px) {
+    .col--sidebar {
+      position: sticky;
+      top: 50px; } }
+  @media (max-width: 800px) {
+    .col--sidebar {
+      position: static;
+      width: 100%;
+      max-width: none;
+      margin-top: 2rem; } }
 
 .col--body {
   width: 80%; }
