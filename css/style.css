@@ -134,6 +134,10 @@ ul.tag-list {
     padding: 0 .5rem;
     border-radius: 4px; }
 
+@media print {
+  .print {
+    display: none; } }
+
 h1 {
   margin-bottom: 0;
   padding-bottom: 0;
