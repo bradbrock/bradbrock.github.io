@@ -118,7 +118,8 @@ ul.column-list {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
-  align-items: flex-start; }
+  align-items: flex-start;
+  margin-bottom: 0; }
   ul.column-list li {
     margin-right: 1.75rem;
     margin-bottom: .5rem; }
@@ -291,8 +292,7 @@ footer {
   align-items: flex-start;
   text-align: center;
   margin-top: 50px;
-  padding-left: 1rem;
-  padding-right: 2rem; }
+  padding: 0 1rem 1rem; }
   footer .contact {
     text-align: right; }
     @media (max-width: 920px) {
